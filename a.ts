@@ -1,3 +1,7 @@
 // a.ts
-export function foo(){}
-export function bar(){}
+export function foo() {
+  return 'foo';
+}
+export function bar() {
+  return 'bar';
+}

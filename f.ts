@@ -1,4 +1,7 @@
 // f.ts
 export * from './a';
 export { result } from './b';
-export meow from './c';
+
+// not work
+// export meow from './c';
+export { default as meow } from './c';
